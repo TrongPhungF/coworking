@@ -26,7 +26,7 @@ def readiness_check():
         app.logger.error(e)
         return "failed", 500
     else:
-        return "ok"
+        return "ok!!"
 
 
 def get_daily_visits():
